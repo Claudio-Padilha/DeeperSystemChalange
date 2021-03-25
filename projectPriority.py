@@ -47,9 +47,9 @@ if __name__ == "__main__":
     watcher_json = json.dumps(watchers)
 
     with open('managers.json', 'w') as f:
-        json.dump(manager_json, f, indent=2)
+        json.dump(manager_json, f)
 
     with open('watchers.json', 'w') as f:
-        json.dump(watcher_json, f, indent=2)
+        json.dump(watcher_json, f)
     
     
